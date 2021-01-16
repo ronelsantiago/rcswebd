@@ -20,6 +20,7 @@ ul {
   height: 38px;
   background: #dc9333;
   font-weight: bold;
+  outline: none;
   border: none;
   padding-left: 20px;
   padding-right: 20px;
@@ -29,6 +30,7 @@ ul {
 .button_1:hover {
   /* background: #d37d0d ; */
   border: none;
+  outline: none;
   background-color: white;
   color: #d37d0d;
 }
