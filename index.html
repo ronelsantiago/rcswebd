@@ -29,7 +29,11 @@
         </div>
         <nav>
           <ul>
-            <li class="current"><a href="index.html"><i class="fas fa-grip-lines-vertical"></i> Home</a></li>
+            <li class="current">
+              <a href="index.html"
+                ><i class="fas fa-grip-lines-vertical"></i> Home</a
+              >
+            </li>
             <li><a href="about.html">About</a></li>
             <li><a href="service.html">Services</a></li>
           </ul>
@@ -49,8 +53,13 @@
     <section id="newsletter">
       <div class="container">
         <h1>Subscribe To Our Newsletter</h1>
-        <form action="#">
-          <input type="email" name="email" placeholder="Enter Email" id="" />
+        <form action="POST" data-netlify="true">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter Email"
+            id="email"
+          />
           <button type="submit" class="button_1">Subscribe</button>
         </form>
       </div>
