@@ -93,19 +93,26 @@
             <form action="POST" data-netlify="true" class="quote">
               <div>
                 <label for="name">Name</label><br />
-                <input type="text" name="name" id="name" placeholder="Name"  />
+                <input type="text" name="name" id="name" placeholder="Name" />
               </div>
               <div>
                 <label for="email">Email</label><br />
-                <input type="email" name="email" id="email" placeholder="Enter email" />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Enter email"
+                />
               </div>
               <div>
                 <label for="message">Message</label><br />
                 <textarea
-                  name="message" id="message"
+                  name="message"
+                  id="message"
                   placeholder="Type your message here.."
                 ></textarea>
               </div>
+              <div data-netlify-recaptcha="true"></div>
               <button class="button_1" type="submit">Send</button>
             </form>
           </div>
